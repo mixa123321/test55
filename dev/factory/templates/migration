@@ -1,0 +1,20 @@
+<?php
+
+namespace sql\migrations\log;
+
+use sql\migrations\BaseMigration;
+
+class migration_template extends BaseMigration
+{
+    /*
+     * Called via run_migration.php
+     */
+    public static function up()
+    {
+        $query_array = [
+            "",
+        ];
+
+        return self::run($query_array);
+    }
+}

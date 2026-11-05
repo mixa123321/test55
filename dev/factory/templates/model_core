@@ -1,0 +1,10 @@
+<?php
+
+namespace app\core\models;
+
+use app\core\db\Mysql;
+
+class model_name_core
+{
+
+}

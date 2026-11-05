@@ -1,0 +1,46 @@
+/storage/*
+/.idea
+/app/config/env/dev.php
+/app/config/env/stage.php
+/app/config/env/host.php
+/app/config/env/efulfil.consero.airbusiness.com.php
+/app/config/env/efulfil.consero-staging.airbusiness.com.php
+/app/config/env/production.php
+/robot/lockers
+/robot/group_lockers
+/robot/tmp
+/robot/old_system_migration/inventory
+/robot/tasks/mailoutput
+/robot/services/mailoutput
+/assets/resources/integration_docs
+/assets/resources/carriers
+/app/backend/views/___not_used
+/composer_vendors
+
+/vendor/FPDF/tfdpf/font/unifont/dejavusans-bold.cw.dat
+/vendor/FPDF/tfdpf/font/unifont/dejavusans-bold.mtx.php
+
+.env
+
+/docker/db/data/
+/docker/azurite/data/
+/docker/sftpgo/data/
+/docker/sftpgo/home/
+
+# Redundant loose private key — the same key material is already bundled
+# into the committed docker/kv-emulator/dev-cert/emulator.pfx, which is what
+# kv-emulator actually uses. Never intentionally commit this one.
+/docker/kv-emulator/dev-cert/key.pem
+
+# Developer's own config secrets for the Key Vault emulator (seeded as `app-config` by seed-secrets.sh)
+/docker/kv-emulator/app-config.local.json
+
+/docker/nginx/logs/*
+!/docker/nginx/logs/.gitkeep
+
+/tests/_output/*
+!/tests/_output/.gitkeep
+tests/Support/_generated/
+
+/robot/tasks/draft/
+

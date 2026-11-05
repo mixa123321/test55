@@ -1,0 +1,37 @@
+<?php
+
+namespace app\core\entities;
+
+use app\core\db\Mysql;
+
+class entity_name extends Entity
+{
+    entity_fields
+
+    entity_methods
+
+    public function save($fields_to_save)
+    {
+        if (empty($fields_to_save)) {
+            return;
+        }
+        $data = $this->toArray();
+        foreach ($data as $data_field => $data_value) {
+            if (!\in_array($data_field, $fields_to_save, true)) {
+                unset($data[$data_field]);
+            }
+        }
+        if (!$this->getId()) {
+            $this->setId(Mysql::saveRow("entity_table", $data));
+        } else {
+            Mysql::saveRow("entity_table", $data);
+        }
+    }
+
+    public function toArray()
+    {
+        return [
+            entity_array
+        ];
+    }
+}

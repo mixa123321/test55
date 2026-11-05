@@ -1,0 +1,18 @@
+<?php
+
+namespace app\backend\controllers;
+
+class controller_name extends AuthController
+{
+    protected function getAccess()
+    {
+        return [
+
+        ];
+    }
+
+    public function index()
+    {
+
+    }
+}

@@ -1,0 +1,3 @@
+name,barcode,alternate_codes,gs1,cost_value,cost_currency,market_value,market_currency,length,width,height,weight,hs_code,season,customer_ref,customer_ref2,photo_src,unique_customer_ref,DDS,exemption_TARIC,ns_pid,s_pid
+Name 1,9876543210,,0,0,GBP,35,GBP,27,1,33,0.14,00000000,,,,https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png,,,,NSPID0001,5012345678900
+Name 2,WC1SKU1,"WC1_SKU1,SKU1",0,0,GBP,67.5,GBP,0,0,0,0,,,,,https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png,123-456,98-76-54,,

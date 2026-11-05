@@ -1,0 +1,48 @@
+<?php
+/**
+ * @var $authUser User
+ */
+
+use app\core\entities\User;
+use app\core\helpers\View;
+
+?>
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">NEW VIEW for {view_name}</h1>
+    </div>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <div class="row">
+                <div class="col">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                    <span>
+                        <i class=""></i>
+                    </span>
+                    </h6>
+                </div>
+                    <div class="col-auto">
+                        <a class="btn btn-success btn-icon-split" href="/">
+                            <span class="icon text-white-50">
+                                <i class="fas fa-fw fa-plus"></i>
+                            </span>
+                            <span class="text">Button</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+            <div class="card-body">
+            </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col">
+                    <a class="btn btn-outline-orange pl-3 btn-sm" href="/">
+                        <i class="fas fa-fw fa-chevron-left mr-2"></i>
+                        <span class="ml-1">Back</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

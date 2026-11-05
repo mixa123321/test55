@@ -1,0 +1,10 @@
+<?php
+
+use app\core\db\Mysql;
+
+try {
+    require_once __DIR__ . "/../boot.php";
+
+} catch (Exception $e) {
+    app\core\ErrorHandler::handleErrors($e);
+}

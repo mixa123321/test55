@@ -1,0 +1,16 @@
+<?php
+
+namespace robot\commands;
+
+use robot\Command;
+use app\core\db\Mysql;
+
+class command_name extends Command
+{
+
+    public function handle()
+    {
+
+    }
+
+}
